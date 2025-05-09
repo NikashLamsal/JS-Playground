@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #d4e1f1 100%); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: #f9f9f9; 
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15); 
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+h1 {
+    color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #fefefe; 
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.scoreboard span {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background: #f1f3f5;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.choices button {
+  background: #f5f6fa; 
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: background 0.2s, transform 0.2s, opacity 0.2s;
+  color: #2c3e50; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.choices button span {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.choices button:hover {
+  background: rgba(52, 152, 219, 0.3); 
+  transform: translateY(-3px);
+}
+
+.choices button:active {
+  transform: translateY(0);
+}
+
+.result {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.result p {
+  margin: 0.5rem 0;
+}
+
+.winner {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #27ae60;
+}
+
+.reset {
+background-color: #4994e3;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+}
+
+.reset:hover {
+  background: #2ed077;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  color: #34495e;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .choices {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choices button {
+    width: 100px;
+    padding: 1rem;
+  }
+
+  .scoreboard {
+    flex-direction: column 0px 0px no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
