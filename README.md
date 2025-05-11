@@ -13,7 +13,7 @@ A simple implementation of the classic Rock Paper Scissors game using HTML, CSS,
 -  Simple UI
 -  Playable in browser
 
-# 🎨 Etch-a-Sketch
+### 🎨 Etch-a-Sketch
 
 A simple and fun Etch-a-Sketch web app built using HTML, CSS, and JavaScript.
 
