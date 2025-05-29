@@ -7,21 +7,10 @@ Welcome to **JS Playground** — a personal repository where I store and showcas
 ## 📁 Current Project
 
 ### 🎮 Rock Paper Scissors
-A simple implementation of the classic Rock Paper Scissors game using HTML, CSS, and JavaScript.
-
--  Basic game logic
--  Simple UI
--  Playable in browser
 
 ### 🎨 Etch-a-Sketch
 
-A simple and fun Etch-a-Sketch web app built using HTML, CSS, and JavaScript.
-
--  Basic drawing logic using hover events  
--  Adjustable grid size  
--  Clear button to reset the sketch  
--  Playable directly in your browser  
-
+### ❌ Tic Tac Toe ⭕
 ---
 
 ##  Upcoming Projects
