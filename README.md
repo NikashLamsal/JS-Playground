@@ -8,6 +8,8 @@ Welcome to **JS Playground** — a personal repository where I store and showcas
 
 ### 🎮 Rock Paper Scissors
 
+### 🧮 BMI Calculator
+
 ### 🎨 Etch-a-Sketch
 
 ### ❌ Tic Tac Toe ⭕
