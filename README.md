@@ -8,11 +8,14 @@ Welcome to **JS Playground** — a personal repository where I store and showcas
 
 ### 🎮 Rock Paper Scissors
 
-### 🧮 BMI Calculator
+### 🔢 Number Guessing Game
 
 ### 🎨 Etch-a-Sketch
 
 ### ❌ Tic Tac Toe ⭕
+
+### 🧮 BMI Calculator
+
 ---
 
 ##  Upcoming Projects
