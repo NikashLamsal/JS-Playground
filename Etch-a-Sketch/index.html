@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Etch-a-Sketch</h1>
+  </header>
+
+  <section class="toolbar">
+    <input type="color" id="colorPicker" value="#0000" title="Choose color" />
+    <button id="rainbowMode"> Rainbow</button>
+    <button id="eraser"> Eraser</button>
+    <input type="number" id="gridSize" min="2" max="64" value="20" />
+    <button id="reset"> Clear</button>
+  </section>
+
+  <main>
+    <div id="gridContainer"></div>
+  </main>
+
+  <footer>
+    <p>Developed by <a href="https://www.linkedin.com/in/nikash-lamsal613" target="_blank">Nikash Lamsal</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

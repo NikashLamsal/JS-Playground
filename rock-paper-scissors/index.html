@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors - Best of 5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors </h1>
+    <div class="scoreboard">
+      <span>🧑 You: <span id="user-score">0</span></span>
+      <span>🤖 Computer: <span id="computer-score">0</span></span>
+    </div>
+
+    <div class="choices">
+      <button onclick="play('rock')">✊<br><span>Rock</span></button>
+      <button onclick="play('paper')">✋<br><span>Paper</span></button>
+      <button onclick="play('scissors')">✌️<br><span>Scissors</span></button>
+    </div>
+
+    <div class="result">
+      <p id="user-choice"></p>
+      <p id="computer-choice"></p>
+      <p id="result"></p>
+      <p id="final-winner" class="winner"></p>
+    </div>
+
+    <button class="reset" onclick="resetGame()">🔁 Play Again</button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+    <footer>
+    <p>© 2025 Nikash Lamsal | <a href="https://github.com/NikashLamsal" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/nikash-lamsal613" target="_blank">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
