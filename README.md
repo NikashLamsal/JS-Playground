@@ -6,15 +6,15 @@ Welcome to **JS Playground** — a personal repository where I store and showcas
 
 ## 📁 Current Project
 
-### 🎮 Rock Paper Scissors
+###  Rock Paper Scissors
 
-### 🔢 Number Guessing Game
+###  Number Guessing Game
 
-### 🎨 Etch-a-Sketch
+###  Etch-a-Sketch
 
-### ❌ Tic Tac Toe ⭕
+###  Tic Tac Toe 
 
-### 🧮 BMI Calculator
+###  BMI Calculator
 
 ---
 
